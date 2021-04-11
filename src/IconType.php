@@ -11,13 +11,15 @@
 // Unauthorized copying of this file, via any medium is strictly prohibited!
 // Proprietary and confidential.
 
-namespace Bolt\Extension\Lulububu\FaviconExtension;
+declare(strict_types=1);
+
+namespace Lulububu\FaviconExtension;
 
 /**
  * Class IconType
  *
  * @author Joshua Schumacher <joshua@lulububu.de>
- * @package Bolt\Extension\Lulububu\FaviconExtension
+ * @package Lulububu\FaviconExtension
  */
 class IconType
 {

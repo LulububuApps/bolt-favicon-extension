@@ -11,13 +11,12 @@
     Proprietary and confidential.
 #}
 
-{% setcontent settings = 'settings' returnsingle %}
 {
   "name": "{{ config.get('general/sitename') }}",
   "short_name": "{{ config.get('general/sitename') }}",
   "description": "{{ config.get('general/payoff') }}",
   "dir": "auto",
-  "lang": "en-US",
+  "lang": "{{ htmllang() }}",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
