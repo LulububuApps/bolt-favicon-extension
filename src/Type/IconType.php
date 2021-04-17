@@ -11,13 +11,13 @@
 // Unauthorized copying of this file, via any medium is strictly prohibited!
 // Proprietary and confidential.
 
-namespace Lulububu\FaviconExtension;
+namespace Lulububu\FaviconExtension\Type;
 
 /**
  * Class IconType
  *
  * @author Joshua Schumacher <joshua@lulububu.de>
- * @package Lulububu\FaviconExtension
+ * @package Lulububu\FaviconExtension\Type
  */
 class IconType
 {

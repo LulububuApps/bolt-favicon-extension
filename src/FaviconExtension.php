@@ -13,7 +13,7 @@
 
 namespace Lulububu\FaviconExtension;
 
-use App\Extension\BaseExtension;
+use Lulububu\BaseExtension\BaseExtension;
 use Symfony\Component\Routing\Route;
 
 /**
@@ -38,23 +38,23 @@ class FaviconExtension extends BaseExtension
     protected function getBetterRoutes(): array
     {
         return [
-            'Lulububu\FaviconExtension\FaviconController::manifestJson'          => [
+            'Lulububu\FaviconExtension\Controller\FaviconController::manifestJson'          => [
                 'manifestJson' => '/manifest.json',
             ],
-            'Lulububu\FaviconExtension\FaviconController::manifestWebApp'        => [
+            'Lulububu\FaviconExtension\Controller\FaviconController::manifestWebApp'        => [
                 'manifestWebApp' => '/manifest.webapp',
             ],
-            'Lulububu\FaviconExtension\FaviconController::browserConfig'         => [
+            'Lulububu\FaviconExtension\Controller\FaviconController::browserConfig'         => [
                 'browserConfig' => '/browserconfig.xml',
             ],
-            'Lulububu\FaviconExtension\FaviconController::yandexBrowserManifest' => [
+            'Lulububu\FaviconExtension\Controller\FaviconController::yandexBrowserManifest' => [
                 'manifestYandex' => '/yandex-browser-manifest.json',
             ],
-            'Lulububu\FaviconExtension\FaviconController::faviconIco'            => [
+            'Lulububu\FaviconExtension\Controller\FaviconController::faviconIco'            => [
                 'faviconIco'     => '/favicon.ico',
                 'faviconIcoSize' => '/favicon-{size}.ico',
             ],
-            'Lulububu\FaviconExtension\FaviconController::faviconPng'            => [
+            'Lulububu\FaviconExtension\Controller\FaviconController::faviconPng'            => [
                 'faviconPngAndroid'    => '/android-chrome-{size}.png',
                 'faviconPngAppleIcon'  => '/apple-icon-{size}.png',
                 'faviconPngAppleTouch' => '/apple-touch-startup-image-{size}.png',

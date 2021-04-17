@@ -6,10 +6,17 @@
     "keywords": [
     ],
     "require": {
+        "lulububu/bolt-base-extension": "dev-master"
     },
     "require-dev": {
         "bolt/core": "^4.0"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url":  "git@github.com:Spomsoree/bolt-base-extension.git"
+        }
+    ],
     "license": "MIT",
     "authors": [
         {

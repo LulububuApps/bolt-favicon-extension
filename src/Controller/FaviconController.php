@@ -1,8 +1,8 @@
 <?php
 
-namespace Lulububu\FaviconExtension;
+namespace Lulububu\FaviconExtension\Controller;
 
-use App\Service\SettingsService;
+use Lulububu\BaseExtension\Service\SettingsService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
  * Class FaviconController
  *
  * @author Joshua Schumacher <joshua@lulububu.de>
- * @package Lulububu\FaviconExtension
+ * @package Lulububu\FaviconExtension\Controller
  */
 class FaviconController extends AbstractController
 {
@@ -23,7 +23,7 @@ class FaviconController extends AbstractController
     /**
      * FaviconController constructor.
      *
-     * @param SettingsService $settingsServie
+     * @param SettingsService $settingsService
      */
     public function __construct(SettingsService $settingsService)
     {
