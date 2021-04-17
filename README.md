@@ -1,2 +1,2 @@
-Lulububu/FaviconExtension
+Lulububu/BoltFaviconExtension
 ======================
