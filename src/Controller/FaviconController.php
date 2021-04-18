@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Lulububu\FaviconExtension\Controller;
 
 use Lulububu\BaseExtension\Service\SettingsService;
