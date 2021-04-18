@@ -21,8 +21,8 @@
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/?homescreen=1",
-  "background_color": "{{- settings.tilecolor ? settings.tilecolor : '#ffffff' -}}",
-  "theme_color": "{{- settings.tilecolor ? settings.tilecolor : '#ffffff' -}}",
+  "background_color": "{{- settings.tilecolor is not empty ? settings.tilecolor : '#ffffff' -}}",
+  "theme_color": "{{- settings.tilecolor is not empty ? settings.tilecolor : '#ffffff' -}}",
   "icons": [
     {
       "src": "/android-chrome-36x36.png",
